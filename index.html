@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fortune Teller Quiz</title>
+    <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+  </head>
+  <body>
+    <div class="container">
+      <h2>How much luck is in store for you?</h2>
+      <h4>Check all of the boxes below that apply to you to find out what your fortune is!</h4>
+    </div>
+    <form id="fortuneSurvey">
+      <div class="form-group">
+        <p>Have you ever:</p>
+        <input type="checkbox" name="omen" value="mirror">Broken a mirror<br>
+        <input type="checkbox" name="luck" value="star">Seen a shooting star<br>
+        <input type="checkbox" name="omen" value="ladder">Passed underneath a ladder indoors<br>
+        <input type="checkbox" name="luck" value="rabbit">Owned a rabbit's foot<br>
+        <input type="checkbox" name="omen" value="cat">Crossed paths with a black cat<br>
+        <input type="checkbox" name="omen" value="bday">Were you born on the 13th?<br>
+        <input type="checkbox" name="luck" value="clover">Found a four-leaf clover<br>
+        <input type="checkbox" name="omen" value="umbrella">Opened an umbrella indoors<br>
+        <input type="checkbox" name="wildcard" value="doublerainbow">Seen a double rainbow<br>
+        <input type="checkbox" name="luck" value="bone">Gotten the big half of a wishbone<br>
+        <input type="checkbox" name="wildcard" value="biggerstar">Seen an ENORMOUS shooting star<br>
+        <input type="checkbox" name="omen" value="shoes">Put your shoes on the table<br>
+        <input type="checkbox" name="luck" value="bugs">Had a garden full of ladybugs<br>
+        <input type="checkbox" name="wildcard" value="sundogs">Seen a circular rainbow around the sun or moon<br>
+        <input type="checkbox" name="luck" value="rainbow">Seen a rainbow<br>
+        <input type="checkbox" name="wildcard" value="5leaf">Found a five-leaf clover<br>
+        <input type="checkbox" name="wildcard" value="money">Found money on the street<br>
+      </div>
+     <button type="submit">Submit Survey</button>
+    </form>
+
+    <span id="luckResult">
+      <p><b>Congratulations! You have narrowly escaped the fate of having both bad luck and <em>catestrophic luck.</em> You should consider hitting a casino this weekend because there's no telling when your luck might change...</b></p>
+    </span>
+    <br>
+    <span id="omenResult">
+      <p><b>The number of bad omens you've encountered in your life outnumbers the good omens. Unfortunately you will most likey lead a difficult and meaningless life.</b></p>
+    </span>
+    <br>
+    <span id="wildcardResult">
+        <p><b>Honestly, I can't believe you're alive right now. Your life is such a statistical anomaly that it can't be categorized as being full of good luck or bad luck. It is catestrophically neutral. You are living proof that there is no god.</b></p>
+    </span>
+  </div>
+</body>
+</html>
